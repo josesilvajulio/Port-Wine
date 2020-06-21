@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color:gray;
+    font-size: 1rem;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    padding: 0rem 2rem 0.5rem 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+
+header img {
+    background-color: #722f37;
+    text-shadow: gray 1px 1px;
+    height: 5rem;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar li, a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 1rem;
+    font-size: x-large;
+}
+
+a:hover {
+    color: #722f37;
+}
+
+#portwine {
+    display:flex;
+    background: url(./Images/port-wine-background.jpg) no-repeat center center/cover;
+    height: 50rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#portwine h1, h2 {
+   background-color: transparent;
+   color:  #722f37;
+   font-size: 4rem;
+   text-shadow: gray 0.1rem 0.1rem;
+   margin-left: 4rem;
+}
+
+#region h2 {
+    text-align: center;
+    font-size: 3.1rem;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.container-region {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.container-region p {
+    width: 40%;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-right: 2rem;
+}
+
+@media only screen (max-width:600px) {
+    iframe {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+/*Styles of wine*/
+
+
+
+#style h2 {
+    text-align: center;
+    width: 90%;
+}
+
+.container-style {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 3rem;
+}
+
+.style-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 30rem;
+}
+
+.style-item h3 {
+    font-size: x-large;
+    margin-bottom: 1.5rem;
+}
+
+.style-item img {
+    height: 30rem;
+    width: 25rem;
+}
+
+.style-item p {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+/*contact*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:  #722f37;
+}
+
+footer form {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
